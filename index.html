@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/index.css">
+    <title>Tags em HTML5 e CSS3</title>
+</head>
+<body>
+    <header>
+        <h1>Guia Completo de Tags HTML5</h1>
+        <p>
+            Aprenda o significado, uso e exemplos de cada tag do HTML5.
+        </p>
+    </header>
+    <main>
+        <nav id="nav">
+            <a href="#itextos">Textos e Títulos</a>
+            <a href="#ilistas">listas</a>
+            <a href="#ilinks">Links e Navegação</a>
+            <a href="#imidias">Imagens e Mídia</a>
+            <a href="#itabelas">Tabelas</a>
+            <a href="#iformularios">Formulários</a>
+            <a href="#iclasses">Classes e IDs</a>
+            <a href="#iestrutura">Estrutura Semântica HTML5</a>
+        </nav>
+        <h1>Formatações HTML5</h1>
+        <p>
+            Clique sobre as Tags para saber mais sobre elas.
+        </p>
+
+        <section id="itextos">
+            <h2>Textos e Títulos</h2>
+            <ul>
+                <li>
+                    <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code> —  <a href="paginas/cabecalhos.html">Cabeçalhos</a>.
+                </li>
+                <hr>
+                <li>
+                    <code>&lt;p&gt;</code> — <a href="paginas/paragrafos.html">Parágrafo</a>.
+                </li>
+                <hr>
+                <li>
+                    <code>&lt;strong&gt;</code> — <a href="paginas/strong.html">Negrito</a> com ênfase semântica.
+                </li>
+                <hr>
+                <li>
+                    <code>&lt;em&gt;</code> — <a href="paginas/em.html">Itálico </a>com ênfase semântica.
+                </li>
+                <hr>
+                <li>
+                    <code>&lt;br&gt;</code> — <a href="paginas/br.html">Quebra de linha</a>.
+                </li>
+                <hr>
+                <li>
+                    <code>&lt;hr&gt;</code> — <a href="paginas/hr.html">Linha horizontal</a> (separação de conteúdo).
+                </li>
+                <hr>
+                <li>
+                    <code>&lt;mark&gt;</code> — <a href="paginas/mark.html">Marca texto</a> (amarelo por padrão).
+                </li>
+                <hr>
+                <li>
+                    <code>&lt;blockquote&gt;</code> — <a href="paginas/blockquote.html">Citação longa</a>.
+                </li>
+                <hr>
+                <li>
+                    <code>&lt;code&gt;</code> — <a href="paginas/code.html">Código inline</a>.
+                </li>
+                <hr>
+                <li>
+                    <code>&lt;pre&gt;</code> — Bloco de código pré-formatado.
+                </li>
+                <hr>
+                <li>
+                    <code>&lt;small&gt;</code> — Texto menor.
+                </li>
+                <hr>
+                <li>
+                    <code>&lt;sub&gt;</code> / <code>&lt;sup&gt;</code> — Subscrito / sobrescrito.
+                </li>
+            </ul>
+            <a href="#nav" id="inicio">inicio</a>
+        </section>
+
+        <section id="ilistas">
+            <h2>Listas</h2>
+            <ul>
+                <li>
+                    <code>&lt;ul&gt;</code> — Lista não ordenada.
+                </li>
+                <hr>
+                <li>
+                    <code>&lt;ol&gt;</code> — Lista ordenada.
+                </li>
+                <hr>
+                <li>
+                    <code>&lt;li&gt;</code> — Item da lista.
+                </li>
+                <hr>
+                <li>
+                    <code>&lt;dl&gt;</code>, <code>&lt;dt&gt;</code>, <code>&lt;dd&gt;</code> — Lista de definição.
+                </li>
+            </ul>
+        </section>
+
+        <section id="ilinks">
+            <h2>Links e Navegação</h2>
+            <ul>
+                <li>
+                    <code>&lt;a href="..."&gt;</code> — Links.
+                </li>
+                <hr>
+                <li>
+                    <code>&lt;nav&gt;</code> — Área de navegação (semântica).
+                </li>
+            </ul>
+        </section>
+
+        <section id="imidias">
+            <h2>Imagens e Mídia</h2>
+            <ul>
+                <li><code>&lt;img src="..." alt="..."&gt;</code> — Imagem.</li>
+                <hr>
+                <li><code>&lt;figure&gt; e &lt;figcaption&gt;</code> — Imagens com legenda.</li>
+                <hr>
+                <li><code>&lt;video&gt;</code>, <code>&lt;audio&gt;</code>, <code>&lt;source&gt;</code> — Mídia incorporada.</li>
+            </ul>
+        </section>
+
+        <section id="itabelas">
+            <h2>Tabelas</h2>
+            <ul>
+                <li>
+                    <code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code>, <code>&lt;td&gt;</code>, <code>&lt;th&gt;</code>, <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, <code>&lt;tfoot&gt;</code>.
+                </li>
+            </ul>
+        </section>
+
+        <section id="iformularios">
+            <h2>Formulários</h2>
+            <ul>
+                <li>
+                    <code>&lt;form&gt;</code>, <code>&lt;input&gt;</code>, <code>&lt;label&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;button&gt;</code>, <code>&lt;select&gt;</code>, <code>&lt;option&gt;</code>, <code>&lt;fieldset&gt;</code>, <code>&lt;legend&gt;</code>.
+                </li>
+            </ul>
+        </section>
+
+        <section id="iclasses">
+            <h2>Classes e IDs:</h2>
+            <ul>
+                <li>
+                    Use <code>class="..." </code>para aplicar estilos reutilizáveis.
+                </li>
+                <hr>
+                <li>
+                    Use <code>id="..."</code> para aplicar estilos únicos ou âncoras de navegação.
+                </li>
+            </ul>
+        </section>
+
+
+        <section id="iestrutura">
+            <h2>Estrutura Semântica HTML5</h2>
+            <p>Use as tags semânticas para dar sentido ao conteúdo:</p>
+            <ul>
+                <li><code>&lt;header&gt;</code> — Cabeçalho.</li>
+                <li><code>&lt;main&gt;</code> — Conteúdo principal.</li>
+                <hr>
+                <li><code>&lt;section&gt;</code> — Seções.</li>
+                <hr>
+                <li><code>&lt;article&gt;</code> — Conteúdo independente.</li>
+                <hr>
+                <li><code>&lt;aside&gt;</code> — Conteúdo lateral.</li>
+                <hr>
+                <li><code>&lt;footer&gt;</code> — Rodapé.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Este site é um guia completo sobre as tags HTML5. Ideal para iniciantes e desenvolvedores que querem revisar conceitos de forma prática e clara.</p>
+        <p>Siga para mais dicas:</p>
+        <a href="https://github.com/seuusuario" target="_blank">GitHub</a> |
+        <a href="https://twitter.com/seuperfil" target="_blank">Twitter</a>
+        <p>&copy; 2025 Lucas de Souza- Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
